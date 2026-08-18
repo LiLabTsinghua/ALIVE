@@ -1,0 +1,32 @@
+{
+    "data_dir": "/data/home/shengkun/benchmark/data",
+    "results_dir": "/home/shengkun/aivc/ALIVE/.worktrees/alive0814/reproducibility/sclambda_results",
+    "atlas": "essential_atlas",
+    "dataset": "nadig_hepg2_essential",
+    "cell_type": "hepg2",
+    "model_name": "scLambda",
+    "use_support_data": false,
+    "task": "in_distribution",
+    "strategy": "random_sampling",
+    "budget_plan": [
+        0.5,
+        1,
+        10,
+        30,
+        50,
+        80,
+        100
+    ],
+    "start_mode": "random",
+    "seed": 56,
+    "repeat": 3,
+    "model_config": {
+        "embedding_path": "/home/shengkun/aivc/embedding/gene/text_based/genept/genept_1.pkl"
+    },
+    "max_budget_gap": 5.0,
+    "max_representative_candidates": 5000,
+    "atlas_dir": "/data/home/shengkun/benchmark/data/essential_atlas",
+    "dataset_cell_type": "nadig_hepg2_essential_hepg2",
+    "saved_dir": "/home/shengkun/aivc/ALIVE/.worktrees/alive0814/reproducibility/sclambda_results/in_distribution/nadig_hepg2_essential_hepg2/scLambda/random_sampling_56_3",
+    "predefined_condition_path": "/data/home/shengkun/benchmark/data/essential_atlas/split/in_distribution/nadig_hepg2_essential_hepg2_cond.json"
+}
