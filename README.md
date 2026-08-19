@@ -2,7 +2,7 @@
 
 ALIVE, a framework designed to investigate whether and under what conditions perturbation prediction models provide practical utility.
 The repository contains the release version used to generate the evaluation tables and figures accompanying our study.
-![](./figure/Figure 1.jpg)
+![](./figure/Figure%201.jpg)
 
 
 ## What ALIVE evaluates
@@ -49,8 +49,8 @@ use support context and do not support zero-shot startup.
 
 The `data/` and `resources/` directories contain large dataset and model
 resource files hosted separately on Zenodo. **Coming soon:** We will provide
-the `data_resources` download link and the complete baseline files as part of
-the release package.
+the `data_resources` download link on Zenodo. The code in `baseline/` will be
+organized and uploaded to GitHub shortly.
 
 ## Installation
 
